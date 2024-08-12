@@ -1,0 +1,58 @@
+section {
+    width: 100vw;
+    height: 15rem;
+    background-color: var(--surface-color);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem;
+}
+
+section main {
+    width: 37rem;
+
+    display: flex;
+    gap: 2rem;
+}
+
+section main img {
+    width: 11rem;
+    height: 11rem;
+}
+
+section main h1 {
+    margin-bottom: 0.5rem;
+    font: var(--text-heading);
+    color: var(--text-color-primary);
+}
+
+section main p {
+    font: var(--text-sm);
+    color: var(--text-color-secondary);
+}
+
+/* #info */
+section div {
+    width: 17.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    font: var(--text-sm);
+    color: var(--text-color-secondary);
+}
+
+section div img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+section span {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}

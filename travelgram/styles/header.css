@@ -1,0 +1,55 @@
+header {
+    background-color: var(--surface-color);
+    width: 100vw;
+    height: 5rem;
+
+    padding: 20px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    
+}
+
+nav a {
+    font: var(--text-md);
+    color: var(--text-color-secondary);
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+nav a:nth-child(1){
+    background-image: url(../assets/icons/MagnifyingGlass.svg);
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+nav a:nth-child(1):hover{
+    background-image: url(../assets/icons/MagnifyingGlassRed.svg);
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+#profile img {
+   width: 2.5rem;
+   height: 2.5rem;
+}
+
+
+

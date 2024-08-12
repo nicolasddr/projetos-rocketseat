@@ -1,0 +1,17 @@
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+    margin-block: 24px;
+}
+
+
+#gallery img {
+    width: 17.875rem;
+    height: 17.875rem;
+    object-fit: cover;
+}

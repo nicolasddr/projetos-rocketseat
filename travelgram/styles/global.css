@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #EF5F4C;
+
+    --background-color: #FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: hsl(0, 0%, 56%);
+
+    /* text color */
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+
+    --font-family: "Poppins", sans-serif;;
+    --text-heading: 700 2rem/1.25 var(--font-family);
+    --text-md: 400 0.875rem/1.70 var(--font-family);
+    --text-sm: 400 0.75rem/1.70 var(--font-family);
+}

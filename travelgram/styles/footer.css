@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 32px;
+
+    font: var(--text-md);
+    color: var(--text-color-secondary);
+}
+
+footer div {
+    display: flex;
+    gap: 16px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+}
+
+footer div a:hover {
+    text-decoration: underline;
+    color: var(--brand-color);
+}
