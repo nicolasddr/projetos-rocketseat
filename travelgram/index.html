@@ -19,46 +19,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="assets/Logo.svg" alt="Logo Travelgram">
-            
-        <nav>
-            <a href="#"></a>
-            <a href="#">Explorar</a>
-            <a href="#">Minhas viagens</a>
-            <a href="#" id="profile">
-                <img src="assets/Profile pic.png" alt="">
-            </a>
-        </nav>
-    </header>
 
-    <section id="about">
-        <main>
-            <img src="assets/Profile pic.png" alt="Imagem de perfil">
-            <div id="description">
-                <h1>Isabela Torres</h1>
-                <p>Amante de viagens, cultura e gastronomia. 🌍✈️ Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
-                </p>
+    <div class="surface-color">
+        <header class="container">
+            <img src="assets/Logo.svg" alt="Logo Travelgram">
+                
+            <nav>
+                <a href="#"></a>
+                <a href="#">Explorar</a>
+                <a href="#">Minhas viagens</a>
+                <a href="#" id="profile">
+                    <img src="assets/Profile pic.png" alt="">
+                </a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="surface-color">
+        <section id="about" class="container">
+            <main>
+                <img src="assets/Profile pic.png" alt="Imagem de perfil">
+                <div id="description">
+                    <h1>Isabela Torres</h1>
+                    <p>Amante de viagens, cultura e gastronomia. 🌍✈️ Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
+                    </p>
+                </div>
+            </main>
+    
+            <div id="info">
+                <span>
+                    <img src="assets/icons/MapPin.svg" alt="">
+                    São Paulo, Brazil
+                </span>
+                <span>
+                    <img src="assets/icons/AirplaneTilt.svg" alt="">
+                    37 países
+                </span>
+                <span>
+                    <img src="assets/icons/Image.svg" alt="">
+                    240 fotos
+                </span>
             </div>
-        </main>
+        </section>
+    </div>
 
-        <div id="info">
-            <span>
-                <img src="assets/icons/MapPin.svg" alt="">
-                São Paulo, Brazil
-            </span>
-            <span>
-                <img src="assets/icons/AirplaneTilt.svg" alt="">
-                37 países
-            </span>
-            <span>
-                <img src="assets/icons/Image.svg" alt="">
-                240 fotos
-            </span>
-        </div>
-    </section>
 
-    <div id="gallery">
+    <div id="gallery" class="container">
         <img src="assets/images/Image 01.png" alt="">
         <img src="assets/images/Image 02.png" alt="">
         <img src="assets/images/Image 03.png" alt="">
@@ -73,7 +79,7 @@
         <img src="assets/images/Image 12.png" alt="">
     </div>
 
-    <footer>
+    <footer class="container">
         <span>Travelgram © 2024</span>
         <div>
             <a href="">Termos de uso</a>

@@ -21,3 +21,14 @@
     --text-md: 400 0.875rem/1.70 var(--font-family);
     --text-sm: 400 0.75rem/1.70 var(--font-family);
 }
+
+.container {
+    padding-inline: 32px;
+    margin-inline: auto;
+    max-width: 1280px;
+}
+
+.surface-color {
+    background-color: var(--surface-color);
+
+}
