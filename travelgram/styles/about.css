@@ -22,10 +22,37 @@ section main img {
     height: 11rem;
 }
 
+@media (width <= 800px) {
+
+    section {
+        height: 518px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }    
+
+    section main{
+        width: 296px;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    section main img {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+}
+
 section main h1 {
     margin-bottom: 0.5rem;
     font: var(--text-heading);
     color: var(--text-color-primary);
+}
+
+@media (width <= 800px) {
+    section main h1 {
+        font-size: 24px;
+    }
 }
 
 section main p {
@@ -33,14 +60,19 @@ section main p {
     color: var(--text-color-secondary);
 }
 
+@media (width <= 800px) {
+    section main div#description {
+        max-width: 296px;
+    }
+}
+
 /* #info */
-section div {
+section div#info {
     width: 17.5rem;
 
     display: flex;
     flex-direction: column;
     gap: 16px;
-
     font: var(--text-sm);
     color: var(--text-color-secondary);
 }

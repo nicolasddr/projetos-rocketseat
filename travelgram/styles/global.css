@@ -32,3 +32,7 @@
     background-color: var(--surface-color);
 
 }
+
+.desktop-only {
+    display: none;
+}
