@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-block: 20px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav a span {
+    font: var(--font-h2);
+}
+
+nav a img {
+    width: 20px;
+    height: 20px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-block: 14px;
+    border: solid 1px var(--stroke-color);
+    border-inline: none; /* Remove bordas das laterais */
+}
+
+nav div span {
+    font: var(--font-span);
+    color: var(--text-color-secondary);
+}
+
+
+@media (width <= 800px) {
+    nav {
+        padding-block: 16px;
+    }
+
+    nav a span {
+        display: none;
+    }
+
+    nav div {
+        display: none;
+    }
+}

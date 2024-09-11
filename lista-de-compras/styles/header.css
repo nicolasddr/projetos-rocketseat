@@ -1,0 +1,17 @@
+header {
+    padding-block:  78px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 44px;
+}
+
+header > img {
+
+    width: 155px;
+    height: 40px;
+    object-fit: cover;
+
+    margin-inline: auto;
+    margin-bottom: 46px;
+}
