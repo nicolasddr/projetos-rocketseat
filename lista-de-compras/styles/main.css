@@ -1,0 +1,85 @@
+
+main #form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main #form input, button {
+    height: 44px;
+    
+    border-radius: 12px;
+
+}
+
+main #form input {
+    border: 2px solid var(--border-primary);
+
+    padding-inline: 18px;
+    color: var(--content-secondary);
+}
+
+main #form input::placeholder {
+    color: var(--content-tertiary);
+}
+
+
+main #form button {
+    padding-block: 12px;
+    padding-inline: 24px;
+
+    background-color: var(--color-brand);
+
+    font: var(--font-link);
+    color: white;
+
+    
+}
+
+#warning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 44px;
+    background-color: var(--color-danger);
+    border-radius: 12px;
+
+    color: white;
+
+    margin-top: 36px;
+    padding: 12px;
+}
+
+#warning-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#warning button {
+    height: 20px;
+    width: 20px;
+
+    background-image: url(../assets/icons/delete-small.svg);
+    
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+
+@media (width > 800px) {
+    main #form {
+        flex-direction: row;
+    }
+
+    main #form input {
+        width: 100vw;
+    }
+
+    main #form button {
+        width: 40vw;
+    }
+
+}

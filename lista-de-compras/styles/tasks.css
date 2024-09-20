@@ -1,0 +1,57 @@
+#tasks {
+    margin-top: 42px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#tasks div.item {
+    background-color: var(--background-secondary);
+
+    height: 57px;
+    padding: 12px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tasks div.task {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+
+    color: var(--content-secondary);
+
+}
+
+#tasks div img {
+    height: 16px;
+    width: 16px;
+}
+
+#tasks button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+
+#tasks button.check {
+
+    background-image: url(../assets/icons/checkbox.svg);
+    width: 16px;
+    height: 16px;
+
+
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+

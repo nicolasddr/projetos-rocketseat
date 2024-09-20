@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: var(--font-family);
 }
 
 :root {
@@ -42,10 +43,14 @@ h1, h2, h3 {
     font: var(--font-title);
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     max-width: 390px;
 
-    padding-inline: 32px;
+    margin-inline: 32px;
 }
 
 .desktop-only {

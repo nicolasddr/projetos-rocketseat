@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/tasks.css">
 
 
     <title>Lista de Compras</title>
@@ -26,5 +28,30 @@
         <h1>Compras da Semana</h1>
     </header>
     
+    <main class="container" id="task-form">
+        <div id="form">
+            <input id="taskInput" type="text" placeholder="Adicione um novo item">
+            <button onclick="addTask()">Adicionar item</button>
+        </div>
+            
+
+        <section id="tasks">
+            <div class="item">
+                <div class="task">
+                    <button class="check" onclick="checkTask(this)"></button>
+                    <span class="taskText">Banana</span>
+                </div>
+                <button onclick="removeTask(this)">
+                    <img src="assets/icons/trash.svg" alt="">
+                </button>
+            </div>
+            
+        </section>
+
+        
+
+    </main>
+
 </body>
+<script src="scripts.js"></script>
 </html>
